@@ -3,6 +3,9 @@
   width:360px;
   margin:auto;
 }
+h3 {
+  color:#333333;
+}
 
 .form {
   position:relative;
@@ -10,7 +13,7 @@
   max-width:360px;
   margin: 0 auto 100px;
   padding:20px;
-  border:1px solid #333333;
+  border:1px solid #cccccc;
 }
 .form input {
   font-family:"Roboto", sans-serif;
@@ -18,7 +21,7 @@
   background: #f2f2f2;
   width:100%;
   border:0;
-  margin: 9px 0 15px;
+  margin: 9px 0 7px;
   padding:15px;
   box-sizing:border-box;
   font-size:14px;
@@ -56,12 +59,10 @@
 }
 .tab-st {
   cursor:pointer !important;
-  background:#ffffff !important;
 }
-.tab-st:active {
-  background: #4CAF50 !important;
+.react-tabs__tab--selected {
+  background-color: grey;
   color:#ffffff;
-  border-radius:5px;
 }
 #formHorizontalRadios1 {
   width: 20px !important;
@@ -94,4 +95,8 @@ ul {
 }
 .dpdown {
   width:100% !important;
+}
+.text-danger {
+  font-size:9px;
+  color:red;
 }
